@@ -12,7 +12,7 @@ If such file is found it content will be read as the project-id.
 
 Each execution of the `gcloud` command, will set the project id to that value, before actualy calling the command.
 
-After the execution the value in the config file will be restorted to it's previous value.
+After the execution the value in the config file will be restored to it's previous value.
 
 ## :mag: Usage
 
