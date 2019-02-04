@@ -4,7 +4,7 @@
 
 ## :memo: Description
 
-Working with multiple GCP projects can be a bit confusing. After each `gcloud` command you need to remember adding the `--projecgt` flag of the project you are currently working on. `gcloud-project`  was created in order to solve this issue.
+Working with multiple GCP projects can be a bit confusing. After each `gcloud` command you need to remember adding the `--project` flag of the project you are currently working on. `gcloud-project` was created in order to solve this issue.
 
 
 `gcloud-project` will look for a file named `.gcpprj` starting from the current directory and going up the tree.
