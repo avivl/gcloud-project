@@ -8,7 +8,7 @@ Working with multiple GCP projects can be a bit confusing. After each `gcloud` c
 
 
 `gcloud-project` will look for a file named `.gcpprj` starting from the current directory and going up the tree.
-If such file is found it content will be read as the project-id.
+If such file is found its content will be read as the project-id.
 
 Each execution of the `gcloud` command, will set the project id to that value, before actualy calling the command.
 
