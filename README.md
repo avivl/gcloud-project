@@ -1,4 +1,18 @@
+[license-link]: http://avivl.mit-license.org
+
 # gcloud-project
+
+## :memo: Description
+
+Working on multiple GCP project can be a bit confusing. You need to remmber before applying a command on which project you are currently working. gcloud-project was created in order to solve this issue.
+
+
+`gcloud-project` will look for a file named `.gcpprj` starting from the current directory and going up the tree.
+If such file is found it content will be read as the project-id.
+
+Each execution of the `gcloud` command, will set the project id to that value, before actualy calling the command.
+
+Aftre the execution the value in the config file will be restorted to it's previous value.
 
 ## :mag: Usage
 
@@ -25,3 +39,7 @@ Give me a trial!
 	$ git clone https://github.com/avivl/gcloud-project
 	$ source /path/to/enhancd/init.sh
 	```
+
+## :ticket: License
+
+[MIT][license-link] :copyright: avivl
