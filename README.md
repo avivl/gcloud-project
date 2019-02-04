@@ -27,7 +27,7 @@ Give it a try!
 
 - Install with [zplug](https://github.com/b4b4r07/zplug):
 
-	gcloud-project can be installed by adding following to your `.zshrc` file in the same function you're doing your other `zplug load` calls in.
+	gcloud-project can be installed by adding the following to your `.zshrc` file in the same function you're doing your other `zplug load` calls in.
 
 	```console
 	$ zplug "avivl/gcloud-project", use:init.sh
