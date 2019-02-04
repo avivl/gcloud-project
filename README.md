@@ -37,7 +37,7 @@ Give it a try!
 
 	```console
 	$ git clone https://github.com/avivl/gcloud-project
-	$ source /path/to/enhancd/init.sh
+	$ source /path/to/gcloud-project/init.sh
 	```
 
 ## :ticket: License
