@@ -4,7 +4,7 @@
 
 ## :memo: Description
 
-Working on multiple GCP project can be a bit confusing. You need to remmber before applying a command on which project you are currently working. gcloud-project was created in order to solve this issue.
+Working with multiple GCP projects can be a bit confusing. After each `gcloud` command you need to remember adding the `--projecgt` flag of the project you are currently working on. `gcloud-project`  was created in order to solve this issue.
 
 
 `gcloud-project` will look for a file named `.gcpprj` starting from the current directory and going up the tree.
@@ -12,7 +12,7 @@ If such file is found it content will be read as the project-id.
 
 Each execution of the `gcloud` command, will set the project id to that value, before actualy calling the command.
 
-Aftre the execution the value in the config file will be restorted to it's previous value.
+After the execution the value in the config file will be restorted to it's previous value.
 
 ## :mag: Usage
 
@@ -23,7 +23,7 @@ $ source ./init.sh
 ```
 ## :package: Installation
 
-Give me a trial!
+Give it a try!
 
 - Install with [zplug](https://github.com/b4b4r07/zplug):
 
