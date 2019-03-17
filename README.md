@@ -1,6 +1,6 @@
 [license-link]: http://avivl.mit-license.org
-[![GitHub stars](https://img.shields.io/github/stars/avivl/gcloud-project.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/avivl/gcloud-project/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/avivl/gcloud-project.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/avivl/gcloud-project/network/)
+![GitHub stars](https://img.shields.io/github/stars/avivl/gcloud-project.svg?style=plastic)
+![GitHub forks](https://img.shields.io/github/forks/avivl/gcloud-project.svg?style=plastic)
 # gcloud-project
 
 ## :memo: Description
